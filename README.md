@@ -79,5 +79,5 @@ within the 4 hours that is given.
 
 I have to be honest and say that it has been at least 2 years since I created a Web API myself. My main experience has
 been base on software running on embedded hardware and communication through MQTT. I took the liberty to use a little
-more time (6,5 hours) to search for the latest ins and outs and also to give a better picture of what my capabilities
+more time (8 hours) to search for the latest ins and outs and also to give a better picture of what my capabilities
 are. Just because you can not play the acoustic guitar perfectly does not mean you can't shread it on a Metal Axe :)
