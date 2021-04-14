@@ -1,0 +1,27 @@
+version: '3.7'
+
+services:
+  mongodb:
+    image: mongo:latest
+    container_name: mongo-irdb
+    hostname: mongo
+    environment:
+      - MONGO_INNITDB_DATABASE=test
+      - MONGO_INITDB_ROOT_USERNAME=root  
+      - MONGO_INITDB_ROOT_PASSWORD=rootpwd
+    ports:
+      - "27017:27017"
+
+  mongo_seeding:
+    build: ./dev_data_seeding
+    depends_on:
+      - mongodb
+
+  irdb:
+    build: .
+    links:
+      - mongodb
+    ports:
+      - "8888:8888"
+
+
