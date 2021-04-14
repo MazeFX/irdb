@@ -22,6 +22,14 @@ coverage run -m py.test
 coverage report
 ```
 
+To run the application stack make sure that docker and docker-compose are installed.
+Use docker compose to build and run the stack.
+
+```bash
+docker-compose build
+docer-compose up -d
+```
+
 ## Project goals
 
 This project is created for the Tech Screening Exercise for Java from Team Rockstars IT. The main goal will be to
