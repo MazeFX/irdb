@@ -1,0 +1,7 @@
+# Local development dependencies go here
+-r base.txt
+coverage
+pytest
+pytest-cov==2.8.0
+pytest-tornado
+

@@ -1,9 +1,19 @@
+![IRDB Logo](./irdb_logo.png)
 
 # The Internet Rock Database
  
 The go to resource on the internet for all rock related information and overall Rock Awesomeness.
 
 Provided by [Rockstars IT](https://www.teamrockstars.nl/)
+
+## Quick start guide
+
+Since I implement TDD it is importation to be able to run tests. I use PyTest because it is my favourite test framework.
+To run the test we need to create a virtualenv of our favourite choice and install the requirements.
+
+```bash
+pip install ./requirements/dev.txt
+```
 
 ## Project goals
 
