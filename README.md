@@ -15,6 +15,13 @@ To run the test we need to create a virtualenv of our favourite choice and insta
 pip install ./requirements/dev.txt
 ```
 
+To run the test we use PyTest and coverage is also available
+
+```bash
+coverage run -m py.test
+coverage report
+```
+
 ## Project goals
 
 This project is created for the Tech Screening Exercise for Java from Team Rockstars IT. The main goal will be to
